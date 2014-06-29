@@ -1,0 +1,240 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+h5{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 30px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+footer{
+  height:40px;
+  background-color: #666666;
+  clear: both;
+}
+
+
+
+
+#navwrapper{
+  display: inline block;
+  width:100%;
+  height:50px;
+  background-color:transparent;
+  position:absolute;
+  top:0;
+}
+#nav {
+  width:300px;
+  position: absolute;
+  top:5px;
+  left: 40%;
+  background-color:transparent;
+}
+
+#nav ul li{
+  background-color: transparent;
+  color:white;
+  font-size: 23px;
+}
+
+#nav a{
+    color: white;
+    font-size: 23px;
+  }
+
+#nav ul li.active{
+  background-color:transparent;
+}
+
+.newswrapper{
+  background-color: black;
+  clear:both;
+  padding-bottom:1em
+}
+.newsitem{
+  padding: 0 30px 20px 190px;
+  position: relative;
+  /*width: 90%;
+  margin: 0 auto;*/
+  background-color: black;
+}
+
+.black{
+     background-color: black;
+}
+
+.blue{
+     background-color:#B4BAD9;
+}
+
+.brown{
+     background-color:#D9D3B4;
+}
+
+.quote{
+   display: block;
+   font-size: 12px;
+   line-height: 14px;
+   color: gray;
+   width: 90%;
+   padding-top: 70px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.newsitem h3{
+  color: rgb(100,100,100);
+}
+
+.newsitem p{
+  padding-top: 20px;
+  color: rgb(220,220,220);
+}
+
+.dividerwrapper{
+    padding: 30px;
+    background-color: black;
+}
+
+.divider{
+    /*display: block; */
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #333;
+    margin: 1em 0; 
+    padding: 0;
+    width: 90%;
+}
+
+.address {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+
+.mission{
+    margin-top: 0;
+}
+
+
+.logo{
+  position:static;
+  margin-top:5px;
+  margin-left:5em;
+}
+
+.small{
+  font-size: 10px;
+  line-height: 30px;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #AAAAAA;
+}
+
+.roundimg{
+  height:150px;
+  width:150px;
+  border-radius:100%;
+  margin-right:30px;
+}
+
+.img-wrap{
+    left: 0;
+    position: absolute;
+	top: 0;
+}
+
+#welcome{
+  background-image: url(img/bakgrund_01.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:centre;
+  margin:0;
+  color:white;
+  text-shadow: black 1px 1px 1px;
+
+}
+
+#welcome h1{
+  width:60%;
+  font-weight: 900;
+  margin-left: 35px;
+
+}
+#welcome p{
+  clear:both;
+  padding-top:40px;
+  font-size: 23px;
+  line-height: 28px;
+  width: 90%;
+  margin-left: 35px;
+}
+
+#aboutwrapper{
+  width:100%;
+  background-color:#E3C18A;
+  clear:both;
+}
+
+#aboutitem{
+  padding: 0 50px 0 30px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#aboutitem h3{
+  color: black;
+}
+
+#aboutitem p{
+  padding-top:40px;
+}
+.squareimg{
+  height:50px;
+  display:inline-block;
+  margin-left:20px;
+}
+
+.aboutwrapper-aim{
+  background-color:#B4BAD9;
+  clear:both;
+}
+
+.aboutwrapper-market{
+  background-color:#D9D3B4;
+  clear:both;
+}
+
+.aboutwrapper-company{
+  background-color:#B4BAD9;
+  clear:both;
+}
+
+#aboutitem{
+  padding: 0 50px 0 190px;
+  position: relative;
+  /*width: 90%;
+  margin: 0 auto;*/
+}
+
+#aboutitem h3{
+  color: black;
+}
+
+#aboutitem p{
+  padding-top:40px;
+}
