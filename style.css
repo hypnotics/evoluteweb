@@ -1,5 +1,5 @@
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
 }
 
@@ -32,12 +32,12 @@ footer{
   height:50px;
   background-color:transparent;
   position:absolute;
-  top:0;
+  top:1em;
 }
 #nav {
   width:300px;
   position: absolute;
-  top:5px;
+  top:20px;
   left: 40%;
   background-color:transparent;
 }
@@ -60,7 +60,7 @@ footer{
 .newswrapper{
   background-color: black;
   clear:both;
-  padding-bottom:1em
+  padding-bottom:3em;
 }
 .newsitem{
   padding: 0 30px 20px 190px;
@@ -110,9 +110,9 @@ footer{
 .divider{
     /*display: block; */
     height: 1px;
-    border: 0; 
+    border: 0;
     border-top: 1px solid #333;
-    margin: 1em 0; 
+    margin: 1em 0;
     padding: 0;
     width: 90%;
 }
@@ -132,7 +132,7 @@ footer{
 
 .logo{
   position:static;
-  margin-top:5px;
+  margin-top:20px;
   margin-left:5em;
 }
 
@@ -168,20 +168,24 @@ footer{
   text-shadow: black 1px 1px 1px;
 
 }
-
+.head{
+  margin-top:12em;
+}
 #welcome h1{
   width:60%;
   font-weight: 900;
   margin-left: 35px;
+  font-size: 75px;
 
 }
 #welcome p{
   clear:both;
-  padding-top:40px;
+  padding-top:1em;
   font-size: 23px;
   line-height: 28px;
   width: 90%;
   margin-left: 35px;
+  margin-top: 9em;
 }
 
 #aboutwrapper{
