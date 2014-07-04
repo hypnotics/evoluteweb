@@ -63,7 +63,7 @@ footer{
   padding-bottom:3em;
 }
 .newsitem{
-  padding: 0 30px 20px 190px;
+  padding: 0 30px 20px 15px;
   position: relative;
   /*width: 90%;
   margin: 0 auto;*/
@@ -194,19 +194,14 @@ footer{
   clear:both;
 }
 
-#aboutitem{
-  padding: 0 50px 0 30px;
-  position: relative;
-  margin: 0 auto;
+.aboutitem{
+  padding: 0 50px 0 20px;
+}
+.aboutitem p{
+  padding-top:20px;
+  clear:none;
 }
 
-#aboutitem h3{
-  color: black;
-}
-
-#aboutitem p{
-  padding-top:40px;
-}
 .squareimg{
   height:50px;
   display:inline-block;
@@ -226,19 +221,5 @@ footer{
 .aboutwrapper-company{
   background-color:#B4BAD9;
   clear:both;
-}
-
-#aboutitem{
-  padding: 0 50px 0 190px;
-  position: relative;
-  /*width: 90%;
-  margin: 0 auto;*/
-}
-
-#aboutitem h3{
-  color: black;
-}
-
-#aboutitem p{
-  padding-top:40px;
+  padding-left: 15px
 }
